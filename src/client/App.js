@@ -1,23 +1,19 @@
-import logo from '../ressources/logo.svg';
 import './App.css';
+import { Container, Card, Row, Col } from 'react-bootstrap'
+import Search from './Containers/Search/Search'
 
 function App() {
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Container className="p-3">
+  
+      <p className="header">Si tout se passe bien ici je devrai pouvoir afficher un element de openfoodfact</p>
+      <Search>
+
+      </Search>
+    
+  </Container>
     </div>
   );
 }
