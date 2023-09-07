@@ -19,12 +19,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "dev": "npm-run-all --parallel client:start server:start",
-    "client:start": "react-scripts start",
-    "client:build": "react-scripts build",
-    "client:test": "react-scripts test",
-    "client:eject": "react-scripts eject",
-    "server:start": "nodemon server.js"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
